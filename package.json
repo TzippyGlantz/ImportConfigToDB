@@ -1,0 +1,24 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "importConfigFilesToDB.js",
+  "scripts": {
+    "test": "nodemon --exec \"mocha -R min\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "config": "^3.3.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "flat": "^5.0.2",
+    "flatkeys": "^0.3.2",
+    "glob": "^7.2.0",
+    "msnodesqlv8": "^2.4.3",
+    "mssql": "^7.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
